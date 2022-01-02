@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* LogerHelperFB_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogerHelperFB_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		611BC3D18B0CA4C915FE23EF /* LogerHelperFB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LogerHelperFB.podspec; path = ../LogerHelperFB.podspec; sourceTree = "<group>"; };
+		611BC3D18B0CA4C915FE23EF /* LogerHelperFB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LogerHelperFB.podspec; path = ../LogerHelperFB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7AF99A5FD5A91297DFF34307 /* Pods-LogerHelperFB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogerHelperFB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LogerHelperFB_Tests/Pods-LogerHelperFB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FFC5DAECACF26863640EAB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9FFC5DAECACF26863640EAB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A36D4BEBD2E260B30BA0D6DA /* Pods_LogerHelperFB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogerHelperFB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C497D81D4A137987335F43 /* Pods-LogerHelperFB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogerHelperFB_Tests.release.xcconfig"; path = "Target Support Files/Pods-LogerHelperFB_Tests/Pods-LogerHelperFB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EBAFE7FD15E5278A70D6B92F /* Pods_LogerHelperFB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogerHelperFB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECCE5E55C8D73831944F8A59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ECCE5E55C8D73831944F8A59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				7AF99A5FD5A91297DFF34307 /* Pods-LogerHelperFB_Tests.debug.xcconfig */,
 				C2C497D81D4A137987335F43 /* Pods-LogerHelperFB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YD936JB5S9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YD936JB5S9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 406AFD794155E0D2DACAA9B4 /* Pods-LogerHelperFB_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YD936JB5S9;
 				INFOPLIST_FILE = LogerHelperFB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 47EB876AF96CC2006B817012 /* Pods-LogerHelperFB_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YD936JB5S9;
 				INFOPLIST_FILE = LogerHelperFB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AF99A5FD5A91297DFF34307 /* Pods-LogerHelperFB_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YD936JB5S9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2C497D81D4A137987335F43 /* Pods-LogerHelperFB_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YD936JB5S9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

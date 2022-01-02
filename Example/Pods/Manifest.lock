@@ -1,0 +1,16 @@
+PODS:
+  - LogerHelperFB (0.1.0)
+
+DEPENDENCIES:
+  - LogerHelperFB (from `../`)
+
+EXTERNAL SOURCES:
+  LogerHelperFB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LogerHelperFB: 36392ec277693be5b3b680e8850dbb9a86c6d768
+
+PODFILE CHECKSUM: 33d040f6ad064b8a66f3cb87fc72e7ba8f8b28c9
+
+COCOAPODS: 1.10.2
