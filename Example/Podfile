@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LogerHelperFB_Example' do
+  pod 'LogerHelperFB', :path => '../'
+
+  target 'LogerHelperFB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
