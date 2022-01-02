@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import LogerHelperFB
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        FBLoggerHelper.init().priTest()
     }
 
     override func didReceiveMemoryWarning() {
